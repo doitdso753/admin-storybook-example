@@ -18,3 +18,17 @@ Primary.args = {
     limit: 10,
 };
 
+export const Icon = Template.bind({});
+Icon.args = {
+    styleType: 'btn',
+    placeholder: '입력해주세요.',
+};
+
+export const LimitView = Template.bind({});
+LimitView.args = {
+    styleType: 'limit',
+    placeholder: '입력해주세요.',
+    limitType: 'byte',
+    limit: 10,
+};
+

@@ -8,6 +8,7 @@ import styled from 'styled-components';
 .table_row .help { background-position:-86px 0; width:16px; height:16px; margin-top:-2px; cursor:pointer; }
 
 /!* 세로형 테이블 2 *!/
+// TODO: resp_checkbox, resp_radio 적용
 .table_row.v2 { width:100%; border-collapse:collapse; border-top:0 solid #ccc; border-bottom:0 solid #ccc; }
 .table_row.v2 > tbody > tr { border-top:0 solid #ccc; }
 .table_row.v2 > tbody > tr > th { border-bottom:0 solid #ccc; border-left:0 solid #ccc; background-color:#fff; padding:16px 15px 5px 0; text-align:left; vertical-align:top; word-break:break-all; font-weight:normal; font-size:14px; color:#41454b; line-height:1.5; }
@@ -16,6 +17,7 @@ import styled from 'styled-components';
 .table_row.v2 > tbody > tr > td .resp_radio label { padding-top:3px; }
 
 /!* 세로형 테이블 + 버튼 *!/
+// TODO: resp_btn_wrap 적용
 .table_col + .resp_btn_wrap, .table_row + .resp_btn_wrap { padding-top:10px; text-align:center; }*/
 
 export const StyledTableWithLine = styled.table`
